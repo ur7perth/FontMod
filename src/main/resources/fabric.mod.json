@@ -1,0 +1,20 @@
+
+{
+  "schemaVersion": 1,
+  "id": "emojifont",
+  "version": "${version}",
+  "name": "Emoji Font",
+  "description": "Custom font and emoji resource pack for Minecraft 1.20.1",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.emojifont.EmojiFontClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
